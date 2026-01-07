@@ -12,6 +12,7 @@ void IO()
     freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
 #endif
 }
+// Brute Force sloution
 bool check(string &target , string &str) {
     if( str.size() % target.size())
         return false;
@@ -61,6 +62,13 @@ string gcdString(string s1 ,string s2 , vector<string> &gcds)
         }
     return "";
 }
+// Math sloution 
+   string gcdOfStrings(string str1, string str2) {
+        if(str1 + str2 != str2 + str1)
+            return "";
+        const int _gcd = gcd(str1.size() , str2.size());
+        return str1.substr(0,_gcd);
+    }
 int main()
 {
     IO();
@@ -70,4 +78,5 @@ int main()
    cout <<  gcdString(s1,s2,gcds);
    for(int i = 0 ; i < gcds.size() ; i++)
     cout << gcds[i] << "\n";
+
 }
