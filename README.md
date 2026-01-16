@@ -12,6 +12,7 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Array / String** | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | ✅ |
 | **Array / String** | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Array / String** | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✅ |
+| **Array / String** | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | Medium | ✅ |
 
 
 `
