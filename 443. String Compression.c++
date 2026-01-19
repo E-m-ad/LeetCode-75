@@ -33,3 +33,30 @@ public:
         return chars.size();
     }
 };
+// Key Aspects Optimization
+// Space from O(N) to O(1)
+class Solution
+{
+public:
+    int compress(vector<char> &chars)
+    {
+        int read = 0;
+        int write = 0;
+        int n = chars.size();
+        while (read < n)
+        {
+            int count = 0;
+            char currentChar = chars[read];
+            while (read < n && currentChar == chars[read])
+            {
+                count += 1;
+                read += 1;
+            }
+            chars[write++] = currentChar;
+            if (count > 1)
+                for (char c : to_string(count))
+                    chars[write++] = c;
+        }
+        return write;
+    }
+};
