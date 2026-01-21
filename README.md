@@ -15,3 +15,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Array / String** | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | Medium | ✅ |
 | **Array / String** | [443. String Compression](https://leetcode.com/problems/string-compression/description/) | Medium | ✅ |
 | **Two Pointer** | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
+| **Two Pointer** | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Easy | ✅ |
