@@ -18,3 +18,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Two Pointer** | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/description/) | Easy | ✅ |
 | **Two Pointer** | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Two Pointer** | [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
+| **Sliding Window** | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
