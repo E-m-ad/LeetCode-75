@@ -21,3 +21,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Sliding Window** | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
 | **Sliding Window** | [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/) | Medium | ✅ |
 | **Sliding Window** | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
+| **Sliding Window** | [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
