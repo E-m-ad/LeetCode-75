@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int largestAltitude(vector<int>& gain) {
+        int maxAltitude = max(0 , gain[0]) ;
+
+        for(int i = 1 ; i < gain.size() ; i++) {
+            int preSum = gain[i - 1] + gain[i];
+            gain[i] = preSum;
+            maxAltitude = max(maxAltitude , preSum);
+        }        
+        return maxAltitude;
+    }
+};
+// Enhanced without editing the orginal data.
+class Solution {
+public:
+    int largestAltitude(vector<int>& gain) {
+        int maxAltitude = 0  ;
+        int currentAltitude = 0;
+        for(int i = 0 ; i < gain.size() ; i++) {
+            currentAltitude += gain[i];
+            maxAltitude = max(maxAltitude , currentAltitude);
+        }        
+        return maxAltitude;
+    }
+};
