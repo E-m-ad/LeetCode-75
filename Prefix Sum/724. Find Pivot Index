@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int pivotIndex(vector<int>& nums) {
+        int allSum = 0;
+        vector<int> prefixSum(nums.size());
+        prefixSum[0] = nums[0];
+        allSum = nums[0];
+        for(int i = 1 ; i < nums.size() ; i++) {
+            prefixSum[i] = prefixSum[i - 1] + nums[i];
+            allSum += nums[i];
+        }
+        for(int i = 0 ; i < nums.size() ; i++) {
+            if(allSum - prefixSum[i] == prefixSum[i] - nums[i])
+                return i;
+        }
+         return -1;     
+    }
+};
