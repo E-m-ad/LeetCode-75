@@ -24,4 +24,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Sliding Window** | [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Prefix Sum** | [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
 | **Prefix Sum** | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
-| **Prefix Sum** | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
+| **Hash map / Set** | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
