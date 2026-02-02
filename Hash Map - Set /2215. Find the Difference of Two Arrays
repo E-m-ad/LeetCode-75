@@ -1,0 +1,24 @@
+class Solution {
+public:
+    vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
+        vector<int> freqForNum1(2001,0); 
+        vector<int> freqForNum2(2001,0);
+        for(int n : nums1) {
+            n = n + 1000;
+            freqForNum1[n] = 1;
+        }
+        for(int n : nums2){
+            n = n + 1000;
+             freqForNum2[n] = 1;
+        }
+        vector<int> forFirstNum;
+        vector<int> forSecondNum;
+        for(int i = 0 ; i < 2001 ; i++) {
+            if( freqForNum1[i] && freqForNum2[i] == 0)
+                forFirstNum.push_back(i - 1000);
+            if(freqForNum2[i] &&  freqForNum1[i] == 0)
+                forSecondNum.push_back(i - 1000);
+        }
+        return {forFirstNum , forSecondNum};
+    }
+};
