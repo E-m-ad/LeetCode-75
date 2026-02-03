@@ -1,0 +1,37 @@
+// Using Std 
+class Solution {
+public:
+    bool uniqueOccurrences(vector<int>& arr) {
+        map<int,int> mp;
+        unordered_set<int> st;
+        for(int ele : arr) 
+            mp[ele] += 1;
+        
+        for(auto it = mp.begin() ; it != mp.end() ; it++)
+        {
+            if(st.find(it->second) == st.end())
+                st.insert(it->second);
+            else 
+                return false;
+        }    
+        return true;
+    }
+};
+// Using primitive data types except vector :)
+class Solution {
+public:
+    bool uniqueOccurrences(vector<int>& arr) {
+        vector<int> freq(2001,0);
+        vector<int> records(2001,0);
+        for(int i = 0 ; i < arr.size() ; i++) 
+            freq[arr[i] + 1000] += 1;
+        
+        for(int i = 0 ; i < 2001 ; i++){
+            if(freq[i] && records[freq[i]] == 0)
+                records[freq[i]] = 1;
+            else if (freq[i] && records[freq[i]])
+                return false;
+        }
+        return true;
+    }
+};
