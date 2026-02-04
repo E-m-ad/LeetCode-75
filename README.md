@@ -26,3 +26,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Prefix Sum** | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
 | **Hash map / Set** | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
 | **Hash map / Set** | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
+| **Hash map / Set** | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
