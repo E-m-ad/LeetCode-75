@@ -1,0 +1,53 @@
+// Informal Visualize about the sloution 
+// assume we have a two string "aabbcc" and "bbccaa"
+// can we arrive to one of them throuth the other throught the operation mentioned in the discription ?
+// General View for the sloution 
+a b c          b c a
+2 2 2          2 2 2
+// this is only the accepted case if all the character exist in both and exist with same frequency
+"aacabb" ,"bbcbaa"
+a c b      b c a
+3 1 2      3 1 2
+// here is the different occurrence of some chars but the general rule we mentioned above such that every character should exist and the number of occurrences is same in general.
+
+
+
+class Solution {
+public:
+    bool closeStrings(string word1, string word2) {
+        if(word1.size() != word2.size())
+            return false;
+
+        unordered_map<char , int> wordMap_1;
+        unordered_map<char,int> wordMap_2;
+        for(int i = 0 ; i < word1.size() ; i++)
+        {
+            wordMap_1[word1[i]] += 1;
+            wordMap_2[word2[i]] += 1; 
+        }
+
+        unordered_map<int,int> freqOfCharsWord_1;
+        unordered_map<int,int> freqOfCharsWord_2;
+        auto ft = wordMap_1.begin();
+        auto st = wordMap_2.begin();
+        while(ft != wordMap_1.end() && st != wordMap_2.end()) {
+            freqOfCharsWord_1[ft->second] += 1;
+            freqOfCharsWord_2[st->second] += 1;
+            ft++;
+            st++;
+        }
+        for(char c : word2)
+            if(wordMap_1.find(c) == wordMap_1.end())
+                return false;
+    
+        for(auto it : freqOfCharsWord_2) {
+            auto searchRes = freqOfCharsWord_1.find(it.first);
+            if( searchRes == freqOfCharsWord_1.end())
+                return false;
+            if(searchRes->second != it.second)
+                return false;
+            
+        }
+        return true;
+    }
+};
