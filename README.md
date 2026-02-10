@@ -31,3 +31,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Stack** | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Stack** | [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Stack** | [394. Decode String](https://leetcode.com/problems/decode-string/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
+| **Queue** | [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
