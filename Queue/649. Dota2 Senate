@@ -1,0 +1,59 @@
+class Solution
+{
+public:
+    string predictPartyVictory(string senate)
+    {
+        string Radiant = "Radiant";
+        string Dire = "Dire";
+        int  senatorPartyR = 0;
+        int senatorPartyD = 0;
+        int skipR = 0;
+        int skipD = 0;
+
+        for (char c : senate)
+        {
+            if (c == 'R')
+                senatorPartyR += 1;
+            else
+                senatorPartyD += 1;
+        }
+        int read = 0;
+        int n = senate.size();
+        while (senatorPartyD && senatorPartyR)
+        {
+            if (senate[read] == 'R')
+            {
+                if (skipR)
+                {
+
+                    skipR -= 1;
+                    senate[read] = 'S';
+                }
+                else
+                {
+                    senatorPartyD--;
+                    skipD += 1;
+                }
+            }
+            else if (senate[read] == 'D')
+            {
+                if (skipD)
+                {
+
+                    skipD -= 1;
+                    senate[read] = 'S';
+                }
+
+                else
+                {
+                    senatorPartyR--;
+                    skipR += 1;
+                }
+            }
+            read = (read + 1) % n;
+        }
+        if (senatorPartyD == 0)
+            return Radiant;
+        return Dire;
+    }
+};
