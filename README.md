@@ -32,3 +32,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Stack** | [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Stack** | [394. Decode String](https://leetcode.com/problems/decode-string/description/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Queue** | [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
+| **Queue** | [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
