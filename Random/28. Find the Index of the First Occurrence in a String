@@ -1,0 +1,24 @@
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        if(needle.size() > haystack.size())
+            return -1;
+        unordered_map<string,int> mp;
+        for(int i = 0 ; i < haystack.size() ; i++) {
+                if(haystack[i] == needle[0]) {
+                int x = i ; 
+                int j = needle.size(); 
+                string s = "";
+                while(x < haystack.size() && j--){
+                    s+= haystack[x++];
+                }
+                mp[s] = i;
+            }
+            if(mp.find(needle) != mp.end())
+                return mp[needle];
+        }
+
+        return -1;
+    }
+
+};
