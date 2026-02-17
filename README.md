@@ -35,3 +35,4 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Queue** | [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Linked List** | [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Linked List** | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
+| **Linked List** | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
