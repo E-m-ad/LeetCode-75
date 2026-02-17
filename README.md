@@ -36,3 +36,15 @@ My solutions for the LeetCode 75 study plan in C++.
 | **Linked List** | [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Linked List** | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75) | Medium | ✅ |
 | **Linked List** | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/?envType=study-plan-v2&envId=leetcode-75) | Easy | ✅ |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/E-m-ad/LeetCode-75/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/E-m-ad/LeetCode-75/tree/master/0021-merge-two-sorted-lists) |
+<!---LeetCode Topics End-->
