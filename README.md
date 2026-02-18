@@ -43,8 +43,17 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/E-m-ad/LeetCode-75/tree/master/0021-merge-two-sorted-lists) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/E-m-ad/LeetCode-75/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/E-m-ad/LeetCode-75/tree/master/0021-merge-two-sorted-lists) |
+## Two Pointers
+|  |
+| ------- |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/E-m-ad/LeetCode-75/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+## Stack
+|  |
+| ------- |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/E-m-ad/LeetCode-75/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 <!---LeetCode Topics End-->
