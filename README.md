@@ -56,4 +56,20 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/E-m-ad/LeetCode-75/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
