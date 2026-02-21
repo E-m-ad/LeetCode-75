@@ -51,6 +51,7 @@ My solutions for the LeetCode 75 study plan in C++.
 ## Two Pointers
 |  |
 | ------- |
+| [1768-merge-strings-alternately](https://github.com/E-m-ad/LeetCode-75/tree/master/1768-merge-strings-alternately) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/E-m-ad/LeetCode-75/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
 |  |
@@ -72,4 +73,8 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+## String
+|  |
+| ------- |
+| [1768-merge-strings-alternately](https://github.com/E-m-ad/LeetCode-75/tree/master/1768-merge-strings-alternately) |
 <!---LeetCode Topics End-->
