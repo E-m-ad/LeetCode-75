@@ -61,10 +61,12 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/E-m-ad/LeetCode-75/tree/master/0872-leaf-similar-trees) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/E-m-ad/LeetCode-75/tree/master/0872-leaf-similar-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -73,6 +75,7 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/E-m-ad/LeetCode-75/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0872-leaf-similar-trees](https://github.com/E-m-ad/LeetCode-75/tree/master/0872-leaf-similar-trees) |
 ## String
 |  |
 | ------- |
