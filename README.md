@@ -52,6 +52,7 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/E-m-ad/LeetCode-75/tree/master/0125-valid-palindrome) |
+| [0680-valid-palindrome-ii](https://github.com/E-m-ad/LeetCode-75/tree/master/0680-valid-palindrome-ii) |
 | [1768-merge-strings-alternately](https://github.com/E-m-ad/LeetCode-75/tree/master/1768-merge-strings-alternately) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/E-m-ad/LeetCode-75/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
@@ -81,5 +82,10 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/E-m-ad/LeetCode-75/tree/master/0125-valid-palindrome) |
+| [0680-valid-palindrome-ii](https://github.com/E-m-ad/LeetCode-75/tree/master/0680-valid-palindrome-ii) |
 | [1768-merge-strings-alternately](https://github.com/E-m-ad/LeetCode-75/tree/master/1768-merge-strings-alternately) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/E-m-ad/LeetCode-75/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
