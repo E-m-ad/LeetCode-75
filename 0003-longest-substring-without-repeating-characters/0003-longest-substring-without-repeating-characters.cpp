@@ -2,7 +2,7 @@ class Solution {
 public:
      int lengthOfLongestSubstring(string s)
     {
-          unordered_map<char, int> windowDublication;
+        unordered_map<char, int> windowDublication;
     int left = 0, right = 0;
     int maxLength = 0;
     int window = 0;
@@ -10,15 +10,11 @@ public:
     {
         if (left == right)
             window = 0;
-        if (windowDublication.find(s[right]) != windowDublication.end() && left > windowDublication[s[right]])
+        if ((windowDublication.find(s[right]) != windowDublication.end() && left > windowDublication[s[right]]) ||
+            (windowDublication.find(s[right]) == windowDublication.end()))
             window += 1;
-
-        if (windowDublication.find(s[right]) == windowDublication.end())
-            window += 1;
-
-        else if (left <= windowDublication[s[right]])
+        else
         {
-
             left = windowDublication[s[right]] + 1;
             window = right - left + 1;
         }
@@ -27,6 +23,6 @@ public:
         right += 1;
         maxLength = max(maxLength, window);
     }
-        return maxLength;       
+    return maxLength; 
     }
 };
