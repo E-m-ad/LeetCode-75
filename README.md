@@ -81,6 +81,7 @@ My solutions for the LeetCode 75 study plan in C++.
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/E-m-ad/LeetCode-75/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/E-m-ad/LeetCode-75/tree/master/0125-valid-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/E-m-ad/LeetCode-75/tree/master/0680-valid-palindrome-ii) |
 | [1768-merge-strings-alternately](https://github.com/E-m-ad/LeetCode-75/tree/master/1768-merge-strings-alternately) |
@@ -88,4 +89,12 @@ My solutions for the LeetCode 75 study plan in C++.
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/E-m-ad/LeetCode-75/tree/master/0680-valid-palindrome-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/E-m-ad/LeetCode-75/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/E-m-ad/LeetCode-75/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
